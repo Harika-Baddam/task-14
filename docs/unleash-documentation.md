@@ -1,17 +1,21 @@
-# Unleash Documentation
+# Unleash Feature Flag Documentation
 
-## Overview
-This document outlines the setup and configuration of Unleash feature flags in our application.
+## 🧩 What is Unleash?
 
-## Setup
-- Unleash SDK integrated with backend services.
-- Environment variables configured for Unleash host and API key.
-- Flags defined for granular control over features.
+Unleash is an open-source feature flag management system that enables dynamic control over application behavior without redeploying code. It allows teams to:
 
-## Usage
-- Flags are evaluated at runtime.
-- Toggle features without redeploying code.
-- Supports gradual rollout and user targeting.
+- Toggle features on/off in real-time
+- Perform gradual rollouts (e.g., 10% of users)
+- Target specific user segments
+- Improve release safety and experimentation
 
-## Monitoring
-- Unleash dashboard used to track flag usage and performance.
+---
+
+## ⚙️ Setting Up Unleash in a Local React Application
+
+### 1. Install Unleash Client SDK
+
+Use the official Unleash client for React (via JavaScript):
+
+```bash
+npm install unleash-client
